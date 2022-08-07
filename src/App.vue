@@ -1,12 +1,8 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-</script>
-
 <template>
-	<h1 class="text-3xl font-bold underline">
-		Hello world!
+	<h1 class="text-3xl font-bold underline pb-6">
+		Playground
 	</h1>
-  <HelloWorld />
+	<router-view></router-view>
 </template>
 
 <style scoped>
