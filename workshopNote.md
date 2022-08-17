@@ -54,3 +54,14 @@
     a:visited {}
    ```
 
+```
+focus vs active 比較
+:focus 表示當前選擇元素以接收輸入時的狀態
+:active 表示元素當前被用戶 activated 時的狀態。
+
+範例：
+Tab 焦點在 <button> 它進入 :focus 狀態
+隨後單擊（或按下space），則使按鈕進入其 :active 狀態
+
+當你點擊一個按鈕時，同時給他 :focus 以及 :active 兩個狀態
+```
